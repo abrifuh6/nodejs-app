@@ -19,11 +19,11 @@ res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+p
 }).listen(9009);
 console.log(__dirname+"/images/mylandmarklogo.png");
 */
-app.get('/landmarktechnologies', function(request, response) {
-    //response.send("<h2><center>Welcome to Node JS app develpoed by MyLandmarkTech</h2>");
+app.get('/Buamtech', function(request, response) {
+    //response.send("<h2><center>Welcome to Node JS app develpoed by Baumtech</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Landmark Technologies. Please Contact +14372152483 for more information or send an email to info@mylandmarktech.com <center></h2>" );
+    response.write("<h2><center>Welcome to  Buamtech Consulting Inc. . Please Contact +12366688271 for more information or send an email to abridevops@gmail.com <center></h2>" );
     response.end();
     
   })
@@ -42,12 +42,12 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'S. Legah'});
+        //res.json({'name': 'A. FUH'});
         res.send({
-		'name': 'Landmark Technologies',
+		'name': 'Buamtech Consulting Inc.',
 		'technology': 'DevOps',
-		'contact' : '+14372152483',
-		'email': 'info@mylandmarktech.com'
+		'contact' : '+12366688271',
+		'email': 'abridevops@gmail.com'
 	            });
         
         });
