@@ -2,7 +2,7 @@
 
 To start this application first you can get this repo code using below url
 
-git clone https://github.com/LandmakTechnology/nodejs-application
+git clone https://github.com/abrifuh6/nodejs-app
 
 cd nodejs-app-mss
 
